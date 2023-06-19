@@ -1,0 +1,27 @@
+
+
+git init: sirve para inicializar un repositorio en un directorio
+
+git add: sirve para agregar archivos al repositorio
+
+git commit: sirve para guardar los cambios en el repositorio
+
+git status: sirve para ver el estado de los archivos en el repositorio
+
+git log: sirve para ver el historial de cambios en el repositorio
+
+git checkout: sirve para cambiar de rama
+
+git branch: sirve para crear una rama
+
+git merge: sirve para unir ramas
+
+git clone: sirve para clonar un repositorio
+
+git push: sirve para subir los cambios al repositorio remoto
+
+git pull: sirve para bajar los cambios del repositorio remoto
+
+git fetch: sirve para traer los cambios del repositorio remoto
+
+git remote: sirve para ver los repositorios remotos
