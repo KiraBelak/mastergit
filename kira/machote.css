@@ -1,0 +1,113 @@
+h1{
+    /* Cambiar color de texto */
+    color: #fff;
+    /* ponerle fondo al texto */
+    background-color: #000;
+    /* Cambiar tamaño de texto */
+    font-size: 30px;
+    /* Cambiar tipo de letra */
+    font-family: 'Arial';
+    /* Cambiar el grosor de la letra */
+    font-weight: 700;
+    /* Cambiar el estilo de la letra */
+    font-style: italic;
+    /* Cambiar el espaciado entre letras */
+    letter-spacing: 5px;
+    /* Cambiar el espaciado entre palabras */
+    word-spacing: 10px;
+    /* Cambiar el espaciado entre lineas */
+    line-height: 50px;
+    /* Cambiar el alineamiento del texto */
+    text-align: center;
+    /* Cambiar el decorado del texto */
+    text-decoration: underline wavy red;
+    /* text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red; */
+    /* Cambiar el transformado del texto */
+    text-transform: capitalize;
+    /* Cambiar el sombreado del texto */
+    text-shadow: 10px 10px 10px #0a1364;
+}
+
+h2{
+    background-color: #000;
+    color: #fff;
+    text-align: right;
+    /* padding */
+    padding: 10px 20px 30px 40px;
+    /* border: green 5px solid; */
+    border-color: green red blue yellow;
+    border-width: 5px 10px 15px 20px;
+    border-style: solid dotted dashed double;
+    margin: 10px 20px 30px 40px;
+}
+
+h3{
+    background: #000;
+    color: #fff;
+    display: inline;
+}
+h4{
+    display: inline;
+}
+h5{
+    display: none;
+}h6{
+    display: block;
+}
+
+a{
+    background-color: gray;
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px dotted white;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px #0a1364;
+}
+
+a:hover{
+    background-color: #fff;
+    color: #000;
+    text-decoration: underline;
+    box-shadow: 0px 0px 0px #0a1364;
+    
+}
+
+p{
+    margin-top: 10px;
+}
+
+body{
+ /* gradientes */
+ background-color: #e5e5f7;
+ opacity: 1;
+ background-image: linear-gradient(to right, #444cf7, #444cf7 5px, #e5e5f7 5px, #e5e5f7 );
+ background-size: 10px 100%;
+}
+
+.genImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 10px 10px 10px #0a1364;
+    /* movimineto de imagenes */
+    position: relative;
+    left: 350px;
+}
+/* rset en imagen */
+
+.btnImg{
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px;
+    border: none;
+    background-color: #000;
+    box-shadow: none;
+}
