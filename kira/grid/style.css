@@ -1,0 +1,17 @@
+/* ejemplo de como usar grid */
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 100px 50% 4fr;
+  grid-gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.item {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+}
+
+
