@@ -1,0 +1,57 @@
+.EncabezadoPrincipal .container{
+    color: white;
+    display:flex;
+    width: 100vw;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 5rem;
+    background: rgb(12,114,0);
+    background: linear-gradient(90deg, rgba(12,114,0,1) 0%, rgba(80,199,23,0.8296452370010504) 49%, rgba(12,114,0,1) 100%); 
+}
+
+.EncabezadoPrincipal-titulo {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.EncabezadoPrincipal-nav-link{
+    border: 0.05rem solid #000000;
+    border-radius: 8%;
+    padding: 0.2rem;
+    margin: 0.1rem;
+}
+
+.EncabezadoPrincipal .container a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h2{
+
+    font-weight: 700;
+    color: rgb(7, 7, 7);
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 5vh;
+    padding-left: 6.7rem;
+}
+
+.correo .container{
+    color: rgb(0, 0, 0);
+    display:flex;
+    padding-right: 10rem;
+
+}
+
+
+
+.fileinput .container{
+    color: rgb(0, 0, 0);
+    display:flex;
+    padding-right: 10rem;
+
+}
