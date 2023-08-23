@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">  
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 5rem;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <button type="button" class="btn btn-primary position-relative profileButton">
+                Profile
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                  <span class="visually-hidden">New alerts</span>
+                </span>
+              </button>
+          </div>
+        </div>
+    </nav>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="img 1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="d-block w-100" alt="img 2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1523357585206-175e971f2ad9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80" class="d-block w-100" alt="img 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Historia Curiosa de las Bicicletas
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              ¿Sabías que la primera bicicleta fue inventada en 1817 por Karl Drais? Aunque no tenía pedales, los ciclistas impulsaban la bicicleta con sus pies en el suelo. ¡Una manera única de moverse por la ciudad!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Las Bicicletas y la Luna
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              ¿Te sorprendería saber que en 1973, el astronauta David Scott llevó una bicicleta plegable a la luna durante la misión Apollo 15? Aunque no pudo usarla en la gravedad lunar, es un recordatorio único de cómo incluso en el espacio, las bicicletas pueden ser inspiradoras.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Bicicletas Voladoras
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              ¿Te imaginas una bicicleta que pueda volar? En 1985, un grupo de ciclistas suizos construyó una bicicleta equipada con alas de aluminio y una hélice. ¡Lograron volar 1.5 km a una altura de 1 metro sobre el suelo! ¡Una hazaña increíble en el mundo ciclista!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Viajes Épicos en Bicicleta
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              ¿Conoces la historia de Dervla Murphy, quien en 1963 viajó en bicicleta desde Irlanda hasta India? ¡Su travesía épica la llevó a recorrer 10,000 millas en bicicleta y a vivir una aventura inolvidable!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              El Ciclismo Más Rápido
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              ¿Sabías que la velocidad más alta jamás registrada en una bicicleta es de 183.9 mph (296 km/h)? Este increíble récord fue establecido en 1995 por Fred Rompelberg, quien viajó en la estela de un automóvil en el lecho salino de Bonneville, Utah, Estados Unidos.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Bicicletas de Película
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              ¿Recuerdas la icónica escena de la película "E.T. el Extraterrestre" en la que Elliott y E.T. escapan en bicicleta volando? Fue una imagen emocionante que capturó la imaginación de muchas personas y demostró el poder de la bicicleta incluso en la ficción.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="kitchensink">
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1594942939850-d8da299577f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" class="card-img-top" alt="Bicicleta de Montaña">
+          <div class="card-body">
+            <h5 class="card-title">Bicicleta de Montaña</h5>
+            <p class="card-text">Las bicicletas de montaña están diseñadas para senderos fuera de carretera y terrenos difíciles. Tienen cuadros robustos, llantas anchas y múltiples velocidades para manejar diversas condiciones.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Adecuadas para aventuras todoterreno</li>
+            <li class="list-group-item">Cuentan con sistemas de suspensión duraderos</li>
+            <li class="list-group-item">Excelentes para subir pendientes empinadas</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Más Información</a>
+            <a href="#" class="card-link">Comprar Ahora</a>
+          </div>
+        </div>
+        <!-- Repite la estructura de la tarjeta para otros tipos de bicicletas -->
+        
+        <div class="card" style="width: 18rem;">
+          <img src="https://plus.unsplash.com/premium_photo-1683842178205-1a1c776d8548?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmljaWNsZXRhJTIwZGUlMjBydXRhfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Bicicleta de Ruta">
+          <div class="card-body">
+            <h5 class="card-title">Bicicleta de Ruta</h5>
+            <p class="card-text">Las bicicletas de ruta están diseñadas para velocidad y eficiencia en carreteras pavimentadas. Tienen cuadros livianos y llantas delgadas para reducir la fricción.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Optimizadas para ciclismo de alta velocidad</li>
+            <li class="list-group-item">Cuentan con manillares de caída para una postura aerodinámica</li>
+            <li class="list-group-item">Ideales para recorridos de larga distancia</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Más Información</a>
+            <a href="#" class="card-link">Comprar Ahora</a>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1578741318006-c6b9ddea10dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmljaWNsZXRhJTIwYm14fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Bicicleta BMX">
+          <div class="card-body">
+            <h5 class="card-title">Bicicleta BMX</h5>
+            <p class="card-text">Las bicicletas BMX son conocidas por su agilidad y robustez. Se utilizan comúnmente para trucos, saltos y paseos en skateparks.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Diseñadas para ciclismo estilo libre y acrobacias</li>
+            <li class="list-group-item">Marco compacto para maniobrabilidad</li>
+            <li class="list-group-item">Adecuadas para ciclistas de todas las edades</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Más Información</a>
+            <a href="#" class="card-link">Comprar Ahora</a>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <img src="https://plus.unsplash.com/premium_photo-1663089458678-2d5a33035c67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWxlY3RyaWMlMjBiaWtlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Bicicleta Eléctrica">
+          <div class="card-body">
+            <h5 class="card-title">Bicicleta Eléctrica</h5>
+            <p class="card-text">Las bicicletas eléctricas, o e-bikes, cuentan con un motor eléctrico integrado que ayuda al pedaleo. Facilitan los desplazamientos y los recorridos largos.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Asistencia al pedaleo para recorridos más largos</li>
+            <li class="list-group-item">Varios niveles de asistencia eléctrica</li>
+            <li class="list-group-item">Opción de transporte respetuosa con el medio ambiente</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Más Información</a>
+            <a href="#" class="card-link">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+      <div class="form" style="padding: 100px;">
+        <h1>Formulario</h1>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Example label</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Another label</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+          </div>
+      </div>
+      <div class="card text-center">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-muted">
+2023 Bicicletas chidas. Todos los derechos reservados     </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
