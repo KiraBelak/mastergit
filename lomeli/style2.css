@@ -1,0 +1,115 @@
+.EncabezadoPrincipal .container{
+    
+    color: white;
+    display:flex;
+    width: 100vw;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background: rgb(12,114,0);
+    background: linear-gradient(90deg, rgba(12,114,0,1) 0%, rgba(80,199,23,0.8296452370010504) 49%, rgba(12,114,0,1) 100%); 
+}
+
+.EncabezadoPrincipal-titulo {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.EncabezadoPrincipal-nav-link{
+
+    border: 0.05rem solid #000000;
+    border-radius: 8%;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    
+}
+
+.EncabezadoPrincipal .container a{
+    
+    text-decoration: none;
+    color: inherit;
+}
+
+h2{
+    font-weight: 700;
+    color: rgb(7, 7, 7);
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 12%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.custom-image {
+    width: 130rem; 
+    height: 25rem;
+    margin-left: 31rem; 
+    margin-right: 31rem; 
+    margin-top: -0.5rem;
+    padding: -2rem 1rem; 
+    max-height: 10rem;
+    max-width: 10rem;
+}
+
+.accordion{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12rem;
+    
+}
+.alert{
+    width: 50%; 
+    margin-left: 12rem;
+}
+.figure{
+    display: block;
+    max-height: 200rem; 
+    width: auto;
+    margin-left: 12%;
+}
+.badge{
+    width: 35%;
+    margin-left: 13rem;
+}
+ .btn-primary{
+    margin-left: 13rem;
+}
+.btn-group{
+    margin-left: 13rem;
+}
+h3{
+    color: rgb(7, 7, 7);
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 12%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.form-check{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 13%;
+}
+.spinner-grow{
+    display:flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 13%;
+
+}
+.mb-3{
+    display:flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 11%; 
+}
