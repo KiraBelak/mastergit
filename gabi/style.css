@@ -1,0 +1,9 @@
+.kitchensink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.profileButton{
+margin-left: 6px;}
