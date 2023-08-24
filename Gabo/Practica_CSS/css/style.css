@@ -1,0 +1,84 @@
+/* Estilo para contenedores de encabezado principal, ambos, minifull y botones nav de encabezado */
+.headerPrincipal .container{
+   display:flex;
+   width: 95vw; /* vw= divir los pixeles de la pantalla en porcentaje, en este caso 100%*/
+   padding: 5px;
+   justify-content:space-between;
+   background-color: rgb(245, 245, 245);
+   margin: 10px;
+}
+
+/* Estilo de contenido del encabezado a la izquierda, "Mini Full"*/
+.headerPrincipal-titulo{ 
+font-size: 20px;
+color: black;
+font-weight: 550;
+}
+
+/* Estilo para contenedores nav link individuales*/
+.headerPrincipal-nav-link{
+    font-size: 15px;
+    color: darkgrey;
+    border: 1px solid rgb(9, 9, 9); /*Recordar  que para que funcione el border debe tener
+    un width style color podemos saber el orden posando el mouse sobre la propiedad en este caso border*/
+    padding: 5px; /* recuerda que con Boton derecho -> Inspect -> Computed  se puede ver
+    graficamente  que es margen, border y padding*/
+    border-radius: 5px;
+}
+
+
+.contenidoPrincipal .container{
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    background-color:azure;
+    
+}
+
+.contenidoPrincipal .subtitulo{
+
+    font-size: 25px;
+    color: black;
+    font-weight: 550;
+}
+
+.contenidoPrincipal-cursos-link{
+    width: 20vw;
+    height: 10vw;
+    font-size: 15px;
+    color: darkgrey;
+    border: 1px solid rgb(9, 9, 9); 
+    padding: 5px; /* recuerda que con Boton derecho -> Inspect -> Computed  se puede ver
+    graficamente  que es margen, border y padding*/
+    border-radius: 5px;
+
+}
+
+.contenidoPrincipal-cursos-link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+.contenidoPrincipal-cursos-link:nth-child(even) a:before {
+	background: url(../img/background1.svg) no-repeat;	
+}
+
+.contenidoPrincipal-cursos-link:nth-child(odd) a:before {
+	background: url(../img/background2.svg) no-repeat;
+}
+
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+/* Quitar estilo de hiperlink, es decir, el subrayado en color morado/azul*/
+a{
+    text-decoration: none;
+    color: inherit;
+}
