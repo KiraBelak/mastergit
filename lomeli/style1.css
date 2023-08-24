@@ -1,0 +1,111 @@
+.EncabezadoPrincipal .container{
+    
+    color: white;
+    display:flex;
+    width: 100vw;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background: rgb(12,114,0);
+    background: linear-gradient(90deg, rgba(12,114,0,1) 0%, rgba(80,199,23,0.8296452370010504) 49%, rgba(12,114,0,1) 100%); 
+}
+
+.EncabezadoPrincipal-titulo {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.EncabezadoPrincipal-nav-link{
+
+    border: 0.05rem solid #000000;
+    border-radius: 8%;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    
+}
+
+.EncabezadoPrincipal .container a{
+    
+    text-decoration: none;
+    color: inherit;
+}
+
+h2{
+
+    font-weight: 700;
+    color: rgb(7, 7, 7);
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 12%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.correo{
+    margin-top: -10rem; 
+    margin-bottom: 15rem; 
+
+}
+.correo .container{
+
+    color: rgb(0, 0, 0);
+    display:flex;
+    padding-right: 5%;
+
+}
+
+h3{
+
+    font-weight: 700;
+    color: rgb(7, 7, 7);
+    display: block;
+    padding-top: 13rem;
+    padding-left:12%;
+    margin-bottom: 1%;
+
+}
+.fileinput {
+    margin-top: 5rem; 
+    margin-bottom: 1rem; 
+}
+.fileinput .container{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    color: rgb(0, 0, 0);
+    display:flex;
+    padding-right: 5%;;
+    height: 50px;
+}
+
+.img-thumbnail {
+    display: block;
+    max-height: 50rem; 
+    width: auto;
+    margin-left: 12%;
+    margin-bottom: -10rem;
+}
+
+.table {
+    width: 35%;
+    margin-left: 13rem;
+}
+
+
+.figure{
+    display: block;
+    max-height: 200rem; 
+    width: auto;
+    margin-left: 12%;
+}
+
+.form-check {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    color: rgb(0, 0, 0);
+    display: block;
+    padding-top: 3rem;
+    padding-left: 15rem; 
+}
+
+

@@ -1,0 +1,80 @@
+body{
+    font-family: 'Times New Roman', Courier, monospace;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+    background-color: azure;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 5rem;
+    width: 50%;
+}
+
+#navbarNavDropdown{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+
+.nav-link{
+    font-size: 2vw;
+}
+
+#carouselExampleIndicators{
+    background: rgb(21,68,222);
+    background: linear-gradient(90deg, rgba(21,68,222,1) 0%, rgba(159,197,241,1) 100%);
+    padding: 4vw;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.carousel-inner{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: auto;
+    box-shadow: 0.5vw 0.5vw 0.5vw rgb(6, 3, 52);
+}
+
+
+#carouselExampleSlidesOnly{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.carousel-inner{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: auto;
+}
+
+.galeria{
+    padding: 2vw;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: solid black;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.card-img-top{
+    width: 150%;
+    border: solid black;
+}
