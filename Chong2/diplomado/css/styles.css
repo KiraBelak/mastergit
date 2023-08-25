@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la navegación */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Estilos para la sección "Prendas" */
+#prendas {
+    background-color: #f8f9fa;
+}
+
+#prendas img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#prendas button {
+    margin-top: 10px;
+}
+
+/* Estilos para la sección "Formulario" */
+#formulario {
+    background-color: gray;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+#formulario h3 {
+    margin-bottom: 20px;
+}
+
+.form-check {
+    margin-bottom: 10px;
+}
