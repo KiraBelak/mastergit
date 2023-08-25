@@ -84,14 +84,14 @@ encima del elemento*/
 	background: url(../img/background2.svg) no-repeat;
 }
 
-.contenidoPrincipal-cursos{
+.contenidoPrincipal-cursos {
     display: flex;
     /* flex-direction: row; */
     flex-wrap: wrap;
     width: 100vw;
     /* justify-content: center;
     align-items: center; */
-    margin-left: 5%; /* Margen para que se despeguen der la orilla de la pantalla
+    margin-left: 5%; /* Margen para que se despeguen der la orilla de la pantalla*/
 }
 
 /* Quitar estilo de hiperlink, es decir, el subrayado en color morado/azul*/
@@ -100,6 +100,7 @@ a{
     color: inherit;
 }
 
+/*Responsividad*/
 @media(max-width: 768px){
 
     .headerPrincipal .container {
@@ -130,4 +131,47 @@ a{
         flex-direction: column;
         align-items: center;
     }
+}
+
+
+
+.videoSobre .container {
+    display: flex;
+    flex-direction: row;
+   
+    padding: 25px;
+    width: 100vw;
+    background-color: rgb(43, 157, 251);
+}
+
+.videoSobre .container .videoSobre-video {
+
+width: 50vw;
+}
+
+.videoSobre .videoSobre-sobre{
+display: flex;
+flex-direction: column;
+justify-content:space-evenly;
+align-items: center;
+font-size:x-large;
+width: 50vw;
+color: white;
+text-align: center;
+
+}
+
+.videoSobre .videoSobre-sobre .videoSobre-sobre-title{
+   font-weight: bold;
+}
+
+
+.videoSobre .videoSobre-sobre .videoSobre-button{
+    background-color: coral;
+    border: none;
+    color: white;
+    padding-block: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-top: 6rem;
 }
