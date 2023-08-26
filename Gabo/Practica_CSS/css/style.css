@@ -4,7 +4,7 @@
    width: 95vw; /* vw= divir los pixeles de la pantalla en porcentaje, en este caso 100%*/
    padding: 5px;
    justify-content:space-between;
-   background-color: rgb(245, 245, 245);
+   background-color: rgb(255, 255, 255);
    margin: 10px;
 }
 
@@ -32,7 +32,7 @@ font-weight: 550;
     flex-direction: column;
 
     width: 100vw;
-    background-color:azure;
+    background-color:ghostwhite;
     
 }
 
@@ -44,15 +44,28 @@ font-weight: 550;
 }
 
 .contenidoPrincipal-cursos-link{
+
     width: 20vw;
-    height: 10vw;
+   /* height: 10vw;*/
     font-size: 15px;
-    color: darkgrey;
+    color: rgb(0, 0, 0);
+    background-color: white;
     border: 1px solid rgb(9, 9, 9); 
     padding: 5px; /* recuerda que con Boton derecho -> Inspect -> Computed  se puede ver
     graficamente  que es margen, border y padding*/
-    border-radius: 5px;
+    border-radius: 2px;
+    /* justify-content: space-between; */
+    text-align: center;
+    /* align-items: center; */
+   margin: 1rem;
+   box-shadow: 3px 3px 3px gray;
 
+}
+
+/*Esta clase se crea para definir la sombra que se crea al posar el mouse 
+encima del elemento*/
+.contenidoPrincipal-cursos-link:hover{
+    box-shadow: 5px 5px 5px gray;
 }
 
 .contenidoPrincipal-cursos-link a:before {
@@ -73,12 +86,48 @@ font-weight: 550;
 
 .contenidoPrincipal-cursos{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     width: 100vw;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 5%; /* Margen para que se despeguen der la orilla de la pantalla
 }
+
 /* Quitar estilo de hiperlink, es decir, el subrayado en color morado/azul*/
 a{
     text-decoration: none;
     color: inherit;
+}
+
+@media(max-width: 768px){
+
+    .headerPrincipal .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .headerPrincipal-nav {
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos{
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos-link{
+        width: 100%;
+    }
+
+    .rodapePrincipal-navMap-list{
+        height: auto;
+        flex-wrap: nowrap;
+
+    }
+
+    .rodapePrincipal-patrocinadores .container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
