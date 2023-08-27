@@ -1,0 +1,70 @@
+body {
+  background-color: #f2f5f7;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0px 20px 0px 20px;
+}
+
+.headerPrincipal {
+  background-color: #fff;
+}
+
+.headerPrincipal-titulo a {
+  font-weight: bold;
+  margin: 5px;
+}
+.subtitulo {
+  font-weight: bold;
+}
+
+.headerPrincipal-nav a {
+  margin: 5px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.contenidoPrincipal-cursos-link a {
+  display: block;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  color: inherit;
+  border: 1px;
+  padding: 3px;
+}
+.videoSobre {
+  background-color: rgb(52, 138, 224);
+  margin: 10px;
+  padding: 20px;
+}
+/* caracteristicas del video */
+.videoSobre-video {
+  width: 60%;
+}
+.videoSobre-sobre-title {
+  color: #fff;
+  font-weight: bold;
+  align-content: normal;
+}
+/* caracteristicas del boton */
+.videoSobre-button {
+  color: white;
+  background-color: brown;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  align-content: flex-end;
+}
+
+.rodapePrincipal {
+  background-color: rgb(11, 50, 74);
+}

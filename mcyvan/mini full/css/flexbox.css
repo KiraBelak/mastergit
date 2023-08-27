@@ -1,0 +1,32 @@
+.headerPrincipal .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerPrincipal-titulo {
+  display: flex;
+}
+
+.headerPrincipal-nav {
+  display: flex;
+}
+
+.contenidoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link {
+  display: flex;
+  width: 25%;
+}
+
+.videoSobre .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rodapePrincipal .container {
+  display: flex;
+}
