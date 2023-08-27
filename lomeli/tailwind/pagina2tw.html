@@ -5,175 +5,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style2tw.css">
-    <title>Pagina1</title>
-
+    <title>Pagina2</title>
 </head>
-<body>
-    
-    <header class="EncabezadoPrincipal">
-		<div class="container">
-			<h1 class="EncabezadoPrincipal-titulo">
-				<a href="#">Jardineros MX</a>
-			</h1>
+<header class="bg-blue-500 p-4">
+  <div class="container mx-auto flex items-center justify-between">
+      <h1 class="text-black text-4xl font-bold">
+          <a href="#" class="text-black">Jardineros MX</a>
+      </h1>
+      <nav class="space-x-4 flex-initial"> <!-- Usando "flex-initial" aquí -->
+          <a class="text-black" href="pagina2tw.html">Home</a>
+          <a class="text-black" href="pagina1tw.html">Concurso</a>
+          <a class="text-black" href="#">Sobre Jardineros MX</a>
+      </nav>
+  </div>
+</header>
 
-			<nav class="EncabezadoPrincipal-nav">
-				<a class="EncabezadoPrincipal-nav-link" href="pagina2.html">Home</a>
-				<a class="EncabezadoPrincipal-nav-link" href="pagina1.html">Concurso</a>
-				<a class="EncabezadoPrincipal-nav-link" href="#">Sobre Jardineros MX</a>
-			</nav>
-            
-		</div>
-	</header>
-    <h2>  HOME </h2> 
-    <div class="image-container">
-        <img src="JARDINEROS MX.png" class="rounded float-start custom-image" alt="...">
-        <img src="funciones-de-un-jardinero.jpg" class="rounded float-end custom-image" alt="...">
+
+    <div class="container mx-auto mt-8">
+        <h2 class="text-2xl font-semibold mb-4">HOME</h2>
+        <div class="flex justify-center">
+            <img src="JARDINEROS MX.png" class="w-1/3 h-auto mr-4 rounded" alt="...">
+            <img src="funciones-de-un-jardinero.jpg" class="w-1/3 h-auto ml-4 rounded" alt="...">
+        </div>
+        
+        <h2 class="text-2xl font-semibold mt-8">APROVECHA NUESTRA OFERTA DEL DIA</h2>
+        <div class="alert alert-success" role="alert">
+            ¡OFERTA DEL DIA!
+        </div>
+        
+        <figure class="my-6">
+            <img src="MACETA.jpg" class="w-1/3 h-auto mx-auto rounded" alt="...">
+            <figcaption class="text-center">maceta super premium que debes de comprar por $1000000</figcaption>
+        </figure>
+        
+        <h3 class="text-xl font-semibold mt-8">Caracteristicas de la maceta</h3>
+        <div class="flex justify-center space-x-2 mt-4">
+            <div class="spinner-grow text-primary" role="status"></div>
+            <div class="spinner-grow text-secondary" role="status"></div>
+            <div class="spinner-grow text-success" role="status"></div>
+            <div class="spinner-grow text-danger" role="status"></div>
+            <div class="spinner-grow text-warning" role="status"></div>
+            <div class="spinner-grow text-info" role="status"></div>
+            <div class="spinner-grow text-light" role="status"></div>
+            <div class="spinner-grow text-dark" role="status"></div>
+        </div>
+        <div class="flex justify-center space-x-2 mt-4">
+            <span class="badge rounded-pill bg-primary">Hermosa</span>
+            <span class="badge rounded-pill bg-secondary">Resistencia</span>
+            <span class="badge rounded-pill bg-success">Resistencia</span>
+            <span class="badge rounded-pill bg-danger">Premium</span>
+            <span class="badge rounded-pill bg-warning text-dark">Peligrosa</span>
+            <span class="badge rounded-pill bg-info text-dark">Sabrosa</span>
+            <span class="badge rounded-pill bg-light text-dark">Dinamica</span>
+            <span class="badge rounded-pill bg-dark">Aerodinamica</span>
+        </div>
+        <button type="button" class="btn btn-primary mt-4">Comprar ahora</button>
+        
+        <h2 class="text-2xl font-semibold mt-8">PREGUNTAS FRECUENTES</h2>
+        <div class="accordion mt-4" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Como ayudan las macetas de JARDINEROS MX a las plantas?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Te voy a ser sincero.</strong> No se, solo compra
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Que beneficios ofrece la sucripcion de JARDINEROS MX?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Muchos.</strong> Solo compra
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Cuales son los multiples metodos de pago?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Todos los que puedas imaginar.</strong> Compralo ahora
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h2 class="text-2xl font-semibold mt-8">Encuesta de satisfaccion</h2>
+        <h3 class="mt-4">¿Como te esta pareciendo la pagina?</h3>
+        <div class="btn-group mt-2" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-danger">Mal</button>
+            <button type="button" class="btn btn-warning">Mas o menos</button>
+            <button type="button" class="btn btn-success">SUPER DUPER RECONTRA BIEN</button>
+        </div>
+        <h3 class="mt-4">¿Prefieres que otra persona haga esta pagina?</h3>
+        <div class="form-check mt-2">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                Si
+            </label>
+        </div>
+        <div class="form-check mt-2">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                No
+            </label>
+        </div>
+        <div class="form-check form-switch mt-2">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">¿Quieres que la informacion recibida sea utilizada para terminos promocionales?</label>
+        </div>
+        <div class="form-check form-switch mt-2">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">¿Quieres que la pagina te envie correos promocionales?</label>
+        </div>
+        <h3 class="mt-4">En la escala de 1 a 3, ¿Que te parece el diseno de la pagina?<br>siendo 1 bueno y 3 malo</h3>
+        <div class="form-check form-check-inline mt-2">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">1</label>
+        </div>
+        <div class="form-check form-check-inline mt-2">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">2</label>
+        </div>
+        <div class="form-check form-check-inline mt-2">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+            <label class="form-check-label" for="inlineCheckbox3">3</label>
+        </div>
+        <div class="spinner-border mt-4" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        
+        <h2 class="text-2xl font-semibold mt-8">Envianos un comentario!</h2>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Tu correo electronico</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
     </div>
-    <h2>  APROVECHA NUESTRA OFERTA DEL DIA </h2> 
-    <div class="alert alert-success" role="alert">
-        ¡OFERTA DEL DIA!
-      </div>
-
-      <figure class="figure">
-        <img src="MACETA.jpg" class="figure-img img-fluid rounded" alt="...">
-        <figcaption class="figure-caption">maceta super premium que debes de comprar por $1000000  </figcaption>
-      </figure>
-
-      <h3> Caracteristicas de la maceta </h3> 
-      <div class="spinner-grow text-primary" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-      <div class="spinner-grow text-secondary" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-      <div class="spinner-grow text-success" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-      <div class="spinner-grow text-danger" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-      <div class="spinner-grow text-warning" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-      <div class="spinner-grow text-info" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-      <div class="spinner-grow text-light" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-      <div class="spinner-grow text-dark" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-      <br>
-      <span class="badge rounded-pill bg-primary">Hermosa</span>
-      <span class="badge rounded-pill bg-secondary">Resistencia</span>
-      <span class="badge rounded-pill bg-success">Resistencia</span>
-      <span class="badge rounded-pill bg-danger">Premium</span>
-      <span class="badge rounded-pill bg-warning text-dark">Peligrosa</span>
-      <span class="badge rounded-pill bg-info text-dark">Sabrosa</span>
-      <span class="badge rounded-pill bg-light text-dark">Dinamica</span>
-      <span class="badge rounded-pill bg-dark">Aerodinamica</span>
-
-      <button type="button" class="btn btn-primary">Comprar ahora</button>
-    
-
-    <h2>  PREGUNTAS FRECUENTES </h2> 
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              ¿Como ayudan las macetas de JARDINEROS MX a las plantas?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Te voy a ser sincero.</strong> No se, solo compra
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                ¿Que beneficios ofrece la sucripcion de JARDINEROS MX?
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Muchos.</strong> Solo compra
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                ¿Cuales son los multiples metodos de pago?
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>Todos los que puedas imaginar.</strong> Compralo ahora
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <h2>  Encuesta de satisfaccion </h2> 
-      <h3> ¿Como te esta pareciciendo  la pagina?  </h3>
-      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-        <button type="button" class="btn btn-danger">Mal</button>
-        <button type="button" class="btn btn-warning">Mas o menos</button>
-        <button type="button" class="btn btn-success">SUPER DUPER RECONTRA BIEN</button>
-      </div>
-      <h3> ¿Prefieres que otra persona haga esta pagina?  </h3>
-
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-        <label class="form-check-label" for="flexRadioDefault2">
-          Si
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-        <label class="form-check-label" for="flexRadioDefault1">
-          No
-        </label>
-      </div>
-
-      <div class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-        <label class="form-check-label" for="flexSwitchCheckDefault">¿Quieres que la informacion recibida sea utilizada para terminos promocionales?</label>
-      </div>
-      <div class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-        <label class="form-check-label" for="flexSwitchCheckChecked">¿Quieres que la pagina te envie correos promocionales?</label>
-      </div>
-
-      <h3> En la escala de 1 a 3,¿ Que te parece el diseno de la pagina ?  <br> siendo 1 bueno y 3 malo</h3>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-        <label class="form-check-label" for="inlineCheckbox1">1</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-        <label class="form-check-label" for="inlineCheckbox2">2</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
-        <label class="form-check-label" for="inlineCheckbox3">3 </label>
-      </div>
-
-      <div class="spinner-border" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-
-      <h2>  Envianos un comentario! </h2> 
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Tu correo electronico</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
 </body>
 </html>
