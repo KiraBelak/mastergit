@@ -180,23 +180,95 @@ text-align: center;
 }
 
 .rodapePrincipal{
-    display: flex;
-    flex-direction: column;
+    
     width: 100vw;
+    margin-top: 20px;
+   
 }
 
 .rodapePrincipal-navMap {
-    display: flex;
+  display: flex;
     flex-direction: column;
     width: 100vw;
+    flex-wrap: wrap;
     background-color: rgb(0, 61, 92);
-    margin-top: 20px;
+   
     color:white;
-    height: 200px;
+   
 }
 
 .rodapePrincipal-navMap-list{
     display: flex;
-    flex-direction: column;
+   flex-direction: column;
+    flex-wrap: wrap;
+height: 200px; 
     
 }
+
+.rodapePrincipal .subtitulo {
+	color: #FFF;
+}
+
+.navmap-list-title {
+	font-weight: 600;
+	font-size: 25px;
+	margin: 15px 0;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navmap-list-title-frontend { 
+    color: #149fda; border-left: 4px solid #149fda; 
+}
+.navmap-list-title-backend { 
+    color: #039050; border-left: 4px solid #039050;
+ }
+
+ .navmap-list-title-bancoDeDados { 
+    color: #bb331e; border-left: 4px solid #bb331e; 
+}
+
+.navmap-list-title-framework { 
+    color: #8009b7; border-left: 4px solid #8009b7;
+ }
+
+/*********************************************************/
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.rodapePrincipal-patrocinadores {
+	margin-top: 20px;
+
+}
+
+.rodapePrincipal-contatoForm {
+	margin-top: 20px;
+	text-align:right;
+}
+
+
+
+
+.rodapePrincipal-contatoForm-submit {
+	
+	
+	background-color: #299a12;
+	color: #FFF;
+
+	
+}
+
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    justify-content: space-around;
+    margin-right: 10%;
+  }
+
