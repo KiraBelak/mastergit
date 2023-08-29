@@ -1,0 +1,145 @@
+body {
+  background-color: #f2f5f7;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.headerPrincipal {
+  background-color: #fff;
+}
+
+.headerPrincipal-titulo a {
+  font-weight: bold;
+
+  font-size: x-large;
+}
+.subtitulo {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.headerPrincipal-nav-link {
+  margin: 5px;
+  text-decoration: none;
+  color: #a7a6a6;
+  border: 1px solid #a7a6a6;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* li */
+.contenidoPrincipal-cursos-link {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 1px rgb(104, 101, 101);
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 1px 1px 1px gray;
+  justify-content: center;
+}
+
+.contenidoPrincipal-cursos-link a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* links en botones */
+.contenidoPrincipal-cursos-link a:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.contenidoPrincipal-cursos-link:nth-child(even) a:before {
+  background: url(../img/background1.svg) no-repeat;
+}
+
+.contenidoPrincipal-cursos-link:nth-child(odd) a:before {
+  background: url(../img/background2.svg) no-repeat;
+}
+.contenidoPrincipal-cursos-link:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.videoSobre {
+  background-color: rgb(52, 138, 224);
+  margin-bottom: 10px;
+}
+
+/* caracteristicas del video */
+
+.videoSobre-video {
+  width: 50%;
+}
+.videoSobre-sobre {
+  color: #fff;
+}
+.videoSobre-sobre-title {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.videoSobre-sobre-list {
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+.videoSobre-sobre-item {
+  margin-bottom: 30px;
+}
+/* caracteristicas del boton */
+.videoSobre-button {
+  color: white;
+  background-color: rgb(199, 87, 87);
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+}
+/* FOOTER */
+.rodapePrincipal {
+  background-color: rgb(11, 50, 74);
+}
+
+.rodapePrincipal-navMap .subtitulo {
+  color: #f2f5f7;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.navmap-list-title.navmap-list-title-backend {
+  color: rgb(38, 126, 96);
+  border-left: solid rgb(55, 128, 103);
+}
+@media (max-width: 768px) {
+  .headerPrincipal .container {
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+  }
+
+  .headerPrincipal-nav {
+    flex-direction: column;
+  }
+
+  .contenidoPrincipal-cursos {
+    flex-direction: column;
+  }
+
+  .contenidoPrincipal-cursos-link {
+    width: 100%;
+  }
+
+  .rodapePrincipal-navMap-list {
+    height: auto;
+    flex-wrap: nowrap;
+  }
+
+  .rodapePrincipal-patrocinadores .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

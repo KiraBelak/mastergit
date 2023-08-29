@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Pagina1</title>
+</head>
+<body>
+  <header class="bg-gradient-to-r from-green-600 via-green-300 to-green-600 flex items-center h-16 text-white text-shadow">
+    <div class="container flex items-center justify-center">
+        <h1 class="text-4xl font-bold EncabezadoPrincipal-titulo">
+            <a href="#">Jardineros MX</a>
+        </h1>
+        <nav class="flex EncabezadoPrincipal-nav ml-12 space-x-1">
+            <a class="border border-black rounded-md p-2 m-1 EncabezadoPrincipal-nav-link" href="pagina1tw.html">Home</a>
+            <a class="border border-black rounded-md p-2 m-1 EncabezadoPrincipal-nav-link" href="pagina2tw.html">Concurso</a>
+            <a class="border border-black rounded-md p-2 m-1 EncabezadoPrincipal-nav-link" href="#">Sobre Jardineros MX</a>
+        </nav>
+    </div>
+</header>
+
+
+    <h2 class="text-6xl  px-20 py-1 font-bold text-gray-700">CONCURSO</h2>
+
+    <h2 class="px-20 py-1 p font-bold text-gray-700">Envianos una foto o video con tu maceta y rellena la informacion para ganarte uno<br>de los muchos premios (No olvides leer los terminos y condiciones)</h2>
+
+    <img src="75511886-retrato-de-cuerpo-entero-de-hombre-feliz-que-sostiene-la-planta-en-maceta-en-el-jardín.jpg" class="img-thumbnail mx-20" alt="imagen hombre con planta">
+
+    <div class="fileinput mt-3 mb-1  ">
+        <div class="container ">
+            <nav>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Envianos una foto con tu maceta</label>
+                    <input class="form-control " type="file" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Si quieres enviar multiples fotos con tu maceta hazlo aqui (maximo 3 fotos)</label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                </div>
+                <div class="mb-3">
+                    <label for="formFileDisabled" class="form-label">Para ganar automaticamente un premio envia tu foto aqui</label>
+                    <input class="form-control" type="file" id="formFileDisabled" disabled>
+                </div>
+                <div class="mb-3">
+                    <label for="formFileSm" class="form-label">Si quieres enviar un video de menos o igual de 1 minuto con tu maceta hazlo aqui</label>
+                    <input class="form-control form-control-sm" id="formFileSm" type="file">
+                </div>
+                <div>
+                    <label for="formFileLg" class="form-label">Si quieres enviar un video de mas de 1 minuto con tu maceta hazlo aqui</label>
+                    <input class="form-control form-control-lg" id="formFileLg" type="file">
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class=" form-check mx-9 pl-20 mt-3 mb-3">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">Lei los terminos y condiciones</label>
+        </div>
+      <div class="form-check mx-9 pl-20 mt-3 m-b3">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+          Quiero que me mandes correos cuando Jardines MX tenga promociones
+        </label>
+      </div>
+      
+      <div class="form-check mx-9 pl-20 mt-3 mb-3">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+        <label class="form-check-label" for="flexCheckDisabled">
+          Presiona aqui para ganar automaticamente el premio
+        </label>
+      </div>
+      <div class="form-check mx-9 pl-20 mt-3 mb-3">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
+        <label class="form-check-label" for="flexCheckCheckedDisabled">
+          Si presionaste aqui significa que vas a comprar en Jardineros MX
+        </label>
+      </div>
+    </div>
+
+    <h3 class="text-3xl pl-20 pb-2 font-bold text-gray-700">Checa los ganadores del año pasado</h3>
+    <table class="table m-1 p-5">
+        <thead>
+            <tr>
+                <th scope="col ">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Votos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Roberto</td>
+                <td>Banana</td>
+                <td>5007</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Bob</td>
+                <td>Cereza</td>
+                <td>4807</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Saul</td>
+                <td>Goodman</td>
+                <td>4678</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <figure class="figure mx-12">
+        <img src="27141199-retrato-de-un-hombre-maduro-sonriente-sosteniendo-la-maceta-en-el-jardín.jpg" class="figure-img img-fluid px-10 rounded" alt="...">
+        <figcaption class="figure-caption px-10 ">Robero Banana, ganador del concurso del año pasado con 5007 votos</figcaption>
+    </figure>
+
+    <h2 class="text-3xl ml-10 pl-12 font-bold text-gray-700">Inicia sesion con tu cuenta jardineros MX</h2>
+
+    <form class="correo">
+        <div class="container pr-5">
+            <nav>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">No te preocupes, no voy a compartir el correo al profesor.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">QUIERO QUE RECUERDE MI CONTRASENA</label>
+                </div>
+                <button type="submit" class="btn btn-primary">INICIAR SESION</button>
+            </nav>
+        </div>
+    </form>
+</body>
+</html>

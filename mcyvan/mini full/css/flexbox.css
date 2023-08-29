@@ -1,0 +1,68 @@
+.headerPrincipal .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+}
+.headerPrincipal-titulo {
+  display: flex;
+  padding: 1%;
+}
+.contenidoPrincipal .container .subtitulo {
+  margin-left: 5%;
+  padding: 1%;
+}
+.headerPrincipal-nav {
+  display: flex;
+}
+
+.contenidoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+.contenidoPrincipal-cursos-link {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoSobre .container {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+/* texto del video */
+.videoSobre-sobre {
+  text-align: center;
+  padding: 0% 6% 0% 6%;
+  margin-left: 4%;
+}
+/* video */
+.videoSobre-video {
+  margin-left: 0%;
+  padding: 2% 2% 2% 0.5%;
+}
+
+.videoSobre-button {
+  margin-top: 27%;
+}
+.rodapePrincipal .container {
+  margin-left: 5%;
+  padding: 1%;
+  display: flex;
+}
+.rodapePrincipal-navMap .subtitulo {
+  padding: 2% 2% 3% 0%;
+}
+.navmap-list-title.navmap-list-title-backend {
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.navmap-list-title.navmap-list-title-backend .rodapePrincipal-navMap-link {
+  display: ;
+}
