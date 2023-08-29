@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Formulario de Compra</title>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto mt-4">
+        <h1 class="text-3xl font-semibold">Formulario de Compra de Camisas</h1>
+        <form class="mt-4">
+            <div class="mb-4">
+                <label for="nombre" class="block font-semibold">Nombre</label>
+                <input type="text" class="form-input w-full" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block font-semibold">Correo Electrónico</label>
+                <input type="email" class="form-input w-full" id="email" placeholder="Ingrese su correo electrónico">
+            </div>
+            <div class="mb-4">
+                <label for="cantidad" class="block font-semibold">Cantidad de Camisas</label>
+                <input type="number" class="form-input w-full" id="cantidad" placeholder="Ingrese la cantidad de camisas">
+            </div>
+            <div class="mb-4">
+                <label for="talla" class="block font-semibold">Talla</label>
+                <select class="form-select w-full" id="talla">
+                    <option>Pequeña</option>
+                    <option>Mediana</option>
+                    <option>Grande</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Comprar</button>
+        </form>
+        <a href="index.html" class="btn btn-secondary mt-3">Volver</a>
+    </div>
+</body>
+</html>
